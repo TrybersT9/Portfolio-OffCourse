@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Section */
+
+header {
+  width: 100%;
+  height: 10vh;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  background: white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header a:link, header a:visited, header a:active {
+  color: black;
+}
+
+header a:hover {
+  color: #8a05be;
+}
+
+.header-logo img{
+  width: 4rem;
+  flex: 1 1 4rem;
+  margin: 0.75rem;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-nav {
+  width: 50%;
+  flex-grow: 7;
+}
+
+header a.purple-font {
+  color: #8a05be;
+}
+
+.header-login {
+  z-index: 10;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Pix Section */
+
+.pix-section {
+  background: #8a05be;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pix-info {
+  width: 33%;
+}
+
+.pix-info h2{
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.pix-info a{
+  font-size: 1.25rem;
+  color: white;
+}
+
+.pix-image {
+  width: 30%;
+}
+
+.pix-image img{
+  width: 100%;
+}
+
+.pix-form {
+  width: 28%;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.pix-form form {
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  background: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pix-form h3 {
+  font-size: 1.5rem;
+  flex-basis: 40%;
+}
+
+
+.pix-form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bbbbbb;
+  color: #bbbbbb;
+  outline: none;
+}
+
+.pix-form button {
+  width: 100%;
+  height: 20%;
+  text-align: left;
+  padding-left: 1rem;
+  border: none;
+  border-radius: 20px;
+  color: #bbbbbb;
+  outline: none;
+}
+
+/* Benefits Section */
+
+
+.benefits-section {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.benefits-info {
+  max-width: 22rem;
+}
+
+.benefits-info h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.benefits-info a {
+  font-size: 1.25rem;
+  color: #8a05be;
+}
+
+.benefits-image {
+  width: 30%;
+  height: 65vh;
+}
+
+.benefits-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/*FOOTER SECTION*/
+
+footer {
+  width: 100%;
+  min-height: 90vh;
+  background: #191919;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #c093fb;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  min-height: 50vh;
+  margin: 0 1rem;
+}
+
+.transparency, .customer-service, .contact, .download-the-app {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  line-height: 1.5;
+}
+
+.transparency p, .contact p, .customer-service p, .download-the-app p {
+  padding-bottom: 2rem;
+}
+
+.download-the-app img {
+  width: 9rem;
+  margin: 1rem;
+}
+
+.footer-info {
+  width: 100%;
+  padding: 5vh 2.5vw;
+  border-top: 1px solid rgb(50, 50, 50);
+  border-bottom: 1px solid rgb(50, 50, 50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 4;
+}
+
+.footer-logo img{
+  width: 8rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.social-media i:hover {
+  color: #c093fb;
+}
